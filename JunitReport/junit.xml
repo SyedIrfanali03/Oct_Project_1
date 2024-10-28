@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.018961">
+    <testcase classname="To search product on flipkart" name="To search valid product on searchbox" time="3.018961">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at org.setpdefinition.DataTableList.to_launch_flipkart_url(DataTableList.java:32)&#13;&#10;&#9;at ✽.To launch flipkart url(C:/Users/Dell/eclipse-workspace/SmartSkills/CucumberProject/src/main/resources/FlipkartLogin.feature:9)&#13;&#10;"><![CDATA[Given To config browser for flipkart........................................passed
+When To launch flipkart url.................................................failed
+And To pass the values on search box........................................skipped
+And To click the search buuton..............................................skipped
+Then To close the flipkart url..............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at org.setpdefinition.DataTableList.to_launch_flipkart_url(DataTableList.java:32)
+	at ✽.To launch flipkart url(C:/Users/Dell/eclipse-workspace/SmartSkills/CucumberProject/src/main/resources/FlipkartLogin.feature:9)
+]]></failure>
+    </testcase>
+</testsuite>
